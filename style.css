@@ -1,0 +1,248 @@
+/*
+	Theme Name: Medical Care
+*/
+
+
+*{margin:0; padding:0}
+body{
+	background:#f1f1f1;
+}
+.full_width{
+	width:100%;
+	overflow:hidden;
+}
+.wrap{
+	width:90%;
+	margin:0 auto;
+	clear:fix;
+}
+p{
+	color:#333;
+	font-size:18px;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	opacity:0.9;
+}
+	/************************* Header Part***************/
+.top_bg{
+	background:#f41301;
+	height:3px;
+}
+.header_bg{
+	background:#6be345;
+}
+.brand{
+	float:left;
+}
+.brand img{
+	width:70px;
+	height:70px;
+	float:left;
+	padding:10px;
+}
+.brand h1{
+	float:left;
+	margin:20px 0 0 10px;
+}
+.brand p{}
+
+.menu{
+	float:right;
+}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{}
+/*************** Welcome Section **************/
+.welcome{
+	text-align:center;
+}
+.welcome h2{
+	margin:50px 0 0 0;
+	font-size:50px;
+}
+.welcome p{
+	font-size:30px;
+	margin: 0 0 150px 0;
+}
+/************* About Us section ******************/
+.about{
+	width:50%;
+	margin: 0 auto;
+	margin-top:-100px;
+	margin-bottom:50px;
+	background:#fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 2px #333;
+	text-align:center;
+}
+.about_us h3{
+	padding:10px;
+	border-bottom:1px solid #aaa;
+	font-size:30px;
+}
+.about_us p{
+	padding:10px 10px 30px 10px ;
+	font-size:22px;
+}
+/********* Article Box ***************/
+.article{
+
+}
+.box{
+	float:left;
+	margin: 20px 7%;
+}
+.featured_image{
+	margin:0 auto;
+	width:150px;
+	height:150px;
+	border-radius:10px;
+	overflow:hidden;
+	box-shadow: 0 0 5px 0 #444;
+}
+.featured_image img{
+	width:100%;
+	height:100%;
+}
+.box h3{
+	padding:10px 0;
+}
+/************ Slider **************/
+.slider_bg{
+	background:#fa6900;
+}
+.slider{
+	width:100%;
+	overflow:hidden;
+
+}
+.slider p{
+	display:inline;
+}
+.slider img{
+	width:100%;
+}
+
+
+
+/************* Doctor Profiles **************/
+.doctor_slider{
+	
+}
+.doctor_image{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	overflow:hidden;
+	box-shadow: 0 0 5px 0 #444;
+	margin: 20px 0 0 0;
+}
+.doctor_image img{
+	width:100%;
+}
+.doctor_slider h2{
+	padding:10px;
+	font-size:25px;
+}
+.doctor_slider p{
+	padding:5px;
+}
+.doctor_slider blockquote{
+	width:70%;
+	background: #ddd;
+	line-height:150%;
+	padding:10px;
+	margin-bottom:20px;
+}
+.sumi_quote{
+	
+}
+
+/************* Service Part ***************/
+.service{
+	width:100%;
+	border-top: 2px solid #333;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.service_slide_detail{
+	width:41%;
+	height:250px;
+	background:#fa6900;
+	clip-path: polygon(95% 0, 100% 35%, 95% 100%, 0 100%, 0 0);
+	float:left;
+}
+.service_slide_detail h3{
+	padding:20px;
+	font-size:25px;
+}
+.service_slide_detail p{
+	width:400px;
+	padding:20px;
+}
+.service_slide{
+	width: 60.5%;
+	height: 250px;
+	float: left;
+	margin-left: -2%;
+}
+.service_slide img{
+	width:100%;
+}
+
+
+/************** Footer Start **************/
+
+.footer_bg{
+	background:#2b2b2b;
+}
+.footer{
+	margin-top:20px;
+}
+.footer_part{
+	width:30%;
+	float:left;
+	color: #bbb;
+}
+.footer_part:last-child{
+	float:right;
+}
+.footer_part ul {
+	margin:20px 0 0 0;	
+}
+.footer_part ul li{				/****** Social Icons ******/
+
+}
+.footer_part ul li a{
+	
+	
+}
+/************ Copyright Area **************/
+.copyright_bg{
+	background:#171717;
+}
+.copy{}
+.copy p{
+	padding:10px;
+	float: left;
+}
+.copy p:last-child{
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
