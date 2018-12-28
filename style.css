@@ -1,51 +1,13 @@
 /*
-	Theme Name: Parallax Practice;
+	Theme Name: Medical Care
 */
-
-@import url('https://fonts.googleapis.com/css?family=Lobster|Lora:400,400i,700');
-
-
-   /* font-family: 'Lobster', cursive;
-    font-family: 'Lora', serif;
-   */
-
-
 
 
 *{margin:0; padding:0}
 body{
-	background:#001534;
-	font-size: 18px;
-    font-family: 'Lora', serif;
-	color:#dedede;
-	line-height:;
+	background:#f1f1f1;
 }
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
-	display:block;
-	overflow:hidden;
-}
-div{
-	overflow:hidden;
-}
-
-h1, h2, h3, h4, h5, h6 { 
-	color:#fff; 
-	font-weight:bold;
-}	
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	color:#fff;
-}
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-	text-shadow: 1px 1px 15px #fff;
-	transition:0.2s all ease;
-	color:#fff;
-}
-a{
-	text-decoration:none;
-}
-
-
-.full{
+.full_width{
 	width:100%;
 	overflow:hidden;
 }
@@ -54,301 +16,230 @@ a{
 	margin:0 auto;
 	clear:fix;
 }
-.bg{
-	background-image:url(img/gallaxy.jpg);
-	background-attachment:fixed;
-	background-size:cover;
-	background-repeat: repeat-y;
+p{
+	color:#333;
+	font-size:18px;
 }
-.head{
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	opacity:0.9;
+}
+	/************************* Header Part***************/
+.top_bg{
+	background:#f41301;
+	height:3px;
+}
+.header_bg{
+	background:#6be345;
+}
+.brand{
+	float:left;
+}
+.brand img{
+	width:70px;
+	height:70px;
+	float:left;
+	padding:10px;
+}
+.brand h1{
+	float:left;
+	margin:20px 0 0 10px;
+}
+.brand p{}
+
+.menu{
+	float:right;
+}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{}
+/*************** Welcome Section **************/
+.welcome{
+	text-align:center;
+}
+.welcome h2{
+	margin:50px 0 0 0;
+	font-size:50px;
+}
+.welcome p{
+	font-size:30px;
+	margin: 0 0 150px 0;
+}
+/************* About Us section ******************/
+.about{
+	width:50%;
+	margin: 0 auto;
+	margin-top:-100px;
+	margin-bottom:50px;
+	background:#fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 2px #333;
+	text-align:center;
+}
+.about_us h3{
+	padding:10px;
+	border-bottom:1px solid #aaa;
+	font-size:30px;
+}
+.about_us p{
+	padding:10px 10px 30px 10px ;
+	font-size:22px;
+}
+/********* Article Box ***************/
+.article{
+
+}
+.box{
+	float:left;
+	margin: 20px 7%;
+}
+.featured_image{
+	margin:0 auto;
+	width:150px;
+	height:150px;
+	border-radius:10px;
+	overflow:hidden;
+	box-shadow: 0 0 5px 0 #444;
+}
+.featured_image img{
+	width:100%;
+	height:100%;
+}
+.box h3{
+	padding:10px 0;
+}
+/************ Slider **************/
+.slider_bg{
+	background:#fa6900;
+}
+.slider{
+	width:100%;
+	overflow:hidden;
+
+}
+.slider p{
+	display:inline;
+}
+.slider img{
+	width:100%;
+}
+
+
+
+/************* Doctor Profiles **************/
+.doctor_slider{
+	
+}
+.doctor_image{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	overflow:hidden;
+	box-shadow: 0 0 5px 0 #444;
+	margin: 20px 0 0 0;
+}
+.doctor_image img{
+	width:100%;
+}
+.doctor_slider h2{
+	padding:10px;
+	font-size:25px;
+}
+.doctor_slider p{
+	padding:5px;
+}
+.doctor_slider blockquote{
+	width:70%;
+	background: #ddd;
+	line-height:150%;
+	padding:10px;
 	margin-bottom:20px;
 }
-
-.rocket{
-	background:url(img/spaceshipsm.png) no-repeat  fixed;
-	width: 100%;	
-	height: 700px;
-	position:absolute;
-	margin-top:50px;
-	background-size:100px auto;
-}
-
-/************** Hero Section **************/
-.avatar{
-	margin:20px auto;
-	width:300px;
-	height:300px;
-	border-radius:50%;
-	border:5px solid #fff;
-	box-shadow:0 0 15px rgba(255,255,255,0.5);
-	overflow:hidden;
-}
-.avatar img{
-	width:100%;
-}
-.profile{
-	text-align:center;
-}
-.profile p{
-	font-size:25pt;
-	font-family: 'Lobster', cursive;
-}
-
-.profile h1{
-	font-size:52pt;
-}
-.profile h2{
-	font-size:28pt;
-}
-
-/***************** Stick Top Heading Title**********************/
-#sticker{
-	
-}
-.stick {
-	position:fixed;
-	top:0px;
-	z-index:9999;
-	background:rgba(3,19,53,0.9);
-	width:100%;
-	margin-left:-5%;
-	transition:0.3s all ease;
-}
-.stick h1{
-	text-align:left;
-	font-size:40px;
-	margin-left:20px;
-}
-.stick + h2{
-	padding-top:90px;
-}
-
-/******************* Primary / Main Menu*****************/
-nav{
-	
-}
-label{
-    font-size: 26px;
-    width: 30px;
-    float: right;
-	display:none;
-	padding:5px;
-}
-#toggle{
-	display:none;
-}
-.menu{
-	margin:5px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display:flex;
-	-webkit-justify-content:center;
-	justify-content:center;
-}
-.menu ul{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display:flex;
-}
-.menu ul li{
-	list-style:none;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display:flex;
-}
-
-.menu ul li a{
-	background:rgba(3,19,53,0.9);
-	padding:10px 20px;
-	border-radius:3px;
-	color:rgba(255,255,255);
-}
-
-.menu ul li a:hover{
-	background:rgba(255,255,255,0.3);
-	transition:0.2s all ease;
-	font-weight:bold;
-}
-.current-menu-item{		/****** For WordPress Menu Active Menu *****/
-	background:rgba(255,255,255,0.3);
-	transition:0.2s all ease;
-	font-weight:bold;
-}
-
-/***************** Stick Top Menu ***************/
-.fix_top{
+.sumi_quote{
 	
 }
 
-.menu_top {
-	position:fixed;
-	top:0;
-	z-index:9999;
-	transition:0.3s all ease;
-}
-.menu_top + .smoothMenu{
-	padding-top:50px;
-}
-.menu_top .menu{
-	-webkit-box-pack: flex-end;
-	-ms-flex-pack: flex-end;
-	justify-content:flex-end;
-}
-
-
-
-
-/**************** Menu For Responsive End *****************/
-
-
-
-
-.about_me{
-	max-width:700px;
-	margin:20px auto;
-	background:rgba(3,19,53,0.5);
-	border-radius:20px;
-	border:5px solid rgba(255,255,255,0.1);
-}
-.about_me hr{
-	color:#fff;
-	border-top:2px solid rgba( 255,255,255,0.5);
-}
-.about_me h2{
-	padding:5px;
-}
-.about_me p{
-	padding:5px;
-}
-/*********************** Skill Parts *******************/
-.skill_part{
-	background:rgba(3,19,53,0.2);
-	margin:20px auto;
-	padding:10px;
-	border-radius:10px;
-	box-shadow:0 0 20px rgba(3,19,53,0.7);
-	
-	display:flex;
-	justify-content:space-around;
-	align-items:center;
-	flex-wrap:wrap;
-}
-.my_skills{
-	flex:1;
-	background:rgba(3,19,53,0.9);
-	max-width:90%;
-	min-width:300px;
-	margin:5px;
-	border-radius:10px;
-	padding:10px;
-	box-shadow:0 0 5px rgba(0,0,0,0.5);
-	overflow:hidden;
-}
-.my_skills h2{
-	padding:5px;
-}
-.skill{
-	padding:5px;
-}
-.skill p{
-	width:50%;
-	float:left;
-}
-.skill p:nth-child(2){
-	float:right;
-	text-align:right;
-}
-.skill_box{
-	background:rgba(255,255,255,0.8);
-	width:98%;
-	height:5px;
-	border-radius:5px;
-	float:left;
-	margin:5px auto 10px auto;
-	padding:1px;
-	border:2px solid rgba(1,177,233);
-}
-.skill_level{
-	background:rgba(1,177,233);
-	width:85%;
-	height:100%;
-	border-radius:10px;
-}
-
-.about_skills{
-	flex:1;
-	max-width:500px;
-	min-width:300px;
-	margin:10px;
-}
-
-
-
-
-
-
-
-
-
-.all_service{
-	background-color:;
-	
-}
-.service_title{
-	
-}
-.my_service{
-	display:flex;
-	align-items:center;
-	flex-wrap:wrap;
-	justify-content:space-around;
-}
+/************* Service Part ***************/
 .service{
-	width:300px;
-	height:300px;
-	-webkit-clip-path: polygon(50% 10%, 60% 0, 100% 0, 100% 100%, 0 100%, 0 0, 40% 0);
-	clip-path: polygon(50% 10%, 60% 0, 100% 0, 100% 100%, 0 100%, 0 0, 40% 0);
-	background:rgba(255,255,255,0.2);
-	border:5px solid rgba(255,255,255,0.5);
-	border-radius:5%;
-	text-align:center;
-	margin:20px;
+	width:100%;
+	border-top: 2px solid #333;
+	margin-bottom:20px;
+	overflow:hidden;
 }
-.service h3{
-	margin-top:30px;
+.service_slide_detail{
+	width:41%;
+	height:250px;
+	background:#fa6900;
+	clip-path: polygon(95% 0, 100% 35%, 95% 100%, 0 100%, 0 0);
+	float:left;
+}
+.service_slide_detail h3{
+	padding:20px;
+	font-size:25px;
+}
+.service_slide_detail p{
+	width:400px;
+	padding:20px;
+}
+.service_slide{
+	width: 60.5%;
+	height: 250px;
+	float: left;
+	margin-left: -2%;
+}
+.service_slide img{
+	width:100%;
 }
 
 
+/************** Footer Start **************/
 
-footer{
+.footer_bg{
+	background:#2b2b2b;
+}
+.footer{
+	margin-top:20px;
+}
+.footer_part{
+	width:30%;
+	float:left;
+	color: #bbb;
+}
+.footer_part:last-child{
+	float:right;
+}
+.footer_part ul {
+	margin:20px 0 0 0;	
+}
+.footer_part ul li{				/****** Social Icons ******/
+
+}
+.footer_part ul li a{
+	
 	
 }
-.connect{
-	min-height:100px;
-	background:rgba(255,255,255,0.3);
-	box-shadow:0 0 5px rgba(255,255,255,0.9);
-	margin:20px;
-	display:flex;
-	align-items:center;
-	justify-content:space-around;
+/************ Copyright Area **************/
+.copyright_bg{
+	background:#171717;
 }
-.connect ul{
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap:wrap;
+.copy{}
+.copy p{
+	padding:10px;
+	float: left;
 }
-.connect ul li{
-	margin:5px;
-	list-style:none;
-	min-width:30px;
+.copy p:last-child{
+	float:right;
 }
-.connect ul li a{
-	
-}
-.connect ul li a:hover img{
-	transform:scale(1.3);
-}
+
+
+
+
+
 
 
 
